@@ -1,6 +1,7 @@
 # BlockchainAPI
 
-After downloading this repo
+After downloading this repository
+follow the below steps
 
 ### step 1:
 * In terminal give command `npm init` and `npm i`
