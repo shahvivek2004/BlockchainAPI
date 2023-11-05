@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Cryptochecker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='/main.css'>
+</head>
+<body>
+    
+    <h1 class="a" style="background-color: aqua ; padding: 35px; text-align: center; border-style: solid; border-width: 10px;">CRYPTOBAR</h1>
+    <form action="/start" class="x" method="post">
+        <h2 class="a">Prices</h2>
+        <p class="a">ENTER THE NAME OF CRYPTOCURRENCY AND<br> IT WILL GIVE THE PRICE!</p>
+        <input type="text" name="price" id="prc">
+        <button type="submit" class="btn">extract</button>
+    </form>
+
+    <form action="/act" class="y" method="post">
+        <h2 class="a">Crypto Tokens</h2>
+        <p class="a">ENTER THE NAME OF CRYPTOCURRENCY AND<br> IT WILL GIVE ALL INFORMATION REGARDING THAT!</p>
+        <input type="text" name="symbols" id="sym">
+        <button type="submit" class="btn">extract</button>
+    </form>
+
+    <% if (locals.name) {  %>
+    <div class="price-board p">
+        cryptoname: <%= name %><br>
+        price: <%= price %><br>
+        volume: <%= volume %> <br>
+        last trade price: <%= last %>
+    </div>
+    <% } %>
+
+    <% if (locals.bc) {  %>
+    <div class="q">
+        
+        base currency: <%= bc %><br>
+        id: <%= id %><br>
+        base currency scale: <%= bcs %><br>
+        counter currency: <%= cc %> <br>
+        minimum order size: <%= mos %>
+    </div>
+    <% }  %>
+</body>
+</html>

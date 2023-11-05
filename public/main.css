@@ -1,0 +1,64 @@
+*{
+    background-color: dodgerblue;
+}
+
+.a{
+    color: white;
+}
+
+input{
+    background-color: white;
+    height: 70px;
+    width: 350px;
+    font-size: larger;
+}
+
+.btn{
+    height: 30px;
+    width: 150px;
+    font-size: larger;
+    color: snow;
+    border-color: aliceblue;
+}
+
+
+.x{
+     margin-top: 80px;
+     margin-bottom: 100px;
+  }
+
+  .price-board{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 15px;
+    border-color:aqua;
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 675px;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+
+  }
+
+  .p{
+    margin-top: -403px;
+    margin-left: 615px;
+  }
+
+  .q{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 15px;
+    border-color:aqua;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 649px;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+    margin-left: 615px;
+    margin-top: 70px;
+  }
